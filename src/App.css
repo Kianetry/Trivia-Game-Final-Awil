@@ -1,0 +1,103 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to right top, #d82148, #c9276e, #ac3b8b, #864d9c, #5c589f,
+  #5c589f, #5c589f, #5c589f, #864d9c, #ac3b8b, #c9276e, #d82148);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.logo{
+  margin-top: 20px;
+  width: 15%;
+  height: 15%;
+}
+
+.Text1{
+  color: white;
+}
+
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 70%; /* Can be in percentage also. */
+  height: 450px;
+  
+
+  /* Visual  */
+  background-color: #151D3B;
+  padding: 37px;
+  border-radius: 16px;
+  color: #fcffe7;
+}
+
+ul {
+  list-style: none;
+  margin-right: 40px;
+}
+
+li {
+  margin-top: 8px;
+  background-color: #eb455f;
+  padding: 5px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+ul li:hover{
+  background: green;
+}
+
+.question-text {
+  color: #fcffe7;
+  font-size: 34px;
+}
+
+/* Final Results  */
+
+.final-results {
+  /* Center the div  */
+  margin-left: 350px;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  margin-top: 5%;
+ 
+
+  /* Visual  */
+  background-color: #151D3B;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+}
+
+button {
+  background-color: #eb455f; 
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+button:hover{
+  background: green;
+}
